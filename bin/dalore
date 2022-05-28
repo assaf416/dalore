@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+require "bundler/setup"
+require "dalore"
+include Dalore
+
+cli = Cli.new(ARGV)
